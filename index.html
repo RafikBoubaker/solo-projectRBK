@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title class ="#t1" >Guess the number</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+        
+        
+        <h1 class="title" style="font-family:cursive; font-size: 30px;">Guess my number!<span><p class="range"> <span style="letter-spacing: 0.1em;"> >>  </span>  your guess should be a number between 1 and 20  <span style="letter-spacing: 0.1em;"> <<  </span> </A></p></span></h1>
+        <hr style="font-size: 0.005px;">
+        <div class="number" style="font-family:'Arial Black'; font-size: 5px;">?</div>
+    </header>
+    <div class="stat">
+        <p class="message">Message</p>
+        <span class="score">Score: 20</span></br>
+        <span class="record" style="font-family:cursive;" >Highest Record:</span></br>
+        <input class="guess-number" type="text"></br>
+        <button class="check-btn">Check Guess</button>
+        <button class="again-btn"> Try Again !! </button>
+    </div>
+  </body>
+  <script src="./script.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+         
+            var div = $(".number");  
+            div.animate({left: '100px'}, "slow");
+            div.animate({fontSize: '3em'}, "slow");
+          });
+        
+        </script> 
+</html>

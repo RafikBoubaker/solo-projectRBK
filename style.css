@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Lobster', sans-serif;
+  color: #eee;
+  background-color: rgba(231, 24, 24, 0.9);
+}
+
+button {
+
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 4vmin;
+  appearance: none;
+  background: linear-gradient(to bottom, #F46001, #E14802);
+  border: none;
+  color: #FFF;
+  border-radius: 2em;
+  padding: .6em 1.5em;
+  overflow: hidden;
+  user-select: none;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 0 1em rgba(white, .2);
+  transition: transform .1s cubic-bezier(.5, 0, .5, 1),
+    box-shadow .2s;
+}
+
+hr {
+  margin-top: 10%;
+  height: 0.5em;
+  background-color: rgb(5, 5, 5);
+}
+
+.title {
+  text-align: center;
+
+  
+}
+
+.range {
+  font-size: 0.4em;
+  text-align: center;
+ 
+}
+
+.number {
+  margin: auto;
+  color: rgb(20, 20, 20, 0.9);
+  font-size: 3em;
+  text-align: center;
+  background-color: #eee;
+  padding: 35px;
+  width: 10%;
+  margin-top: -6%;
+}
+
+.check-btn {
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 34%;
+}
+
+.message {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.score {
+  margin-top: 25%;
+  margin-left: 65%;
+  font-family: 'Comic Sans MS';
+  font-size: 1.5em;
+}
+
+.record {
+  margin-top: 35%;
+  margin-left: 65%;
+  font-family: 'Comic Sans MS';
+  font-size: 1.5em; 
+}
+
+.guess-number {
+
+  text-align:center;
+  margin-top: 3%;
+  margin-left: 47%;
+  height: 1em;
+  width: 1em;
+  font-size: 4em;
+  padding: 3px;
+  background-color: rgba(224, 11, 82, 0.9);
+  color: #eee;
+  font-family: 'monospace';
+  
+  
+}
